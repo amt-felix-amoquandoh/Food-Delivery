@@ -1,2 +1,1 @@
-# Step-Progress-Bar
-A simple form built with Javascript
+# A simple website for taking orders and delivering food 
