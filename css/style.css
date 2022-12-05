@@ -13,5 +13,19 @@
     --bodyFonts: 'Poppins', sans-serif;
     --bodyColor: #676767;
     --lightColor: #fff;
-    
+    --darkColor: #2e2e2e;
+    --lightDrak: #F555556;
+    --sectionBackground: #FEF5F5;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.4rem;
+    font-family: var(--bodyFonts);
+    font-weight: 400;
+    color: var(--bodyColor);
+    line-height: 1.5;
 }
