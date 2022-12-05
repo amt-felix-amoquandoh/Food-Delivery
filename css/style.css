@@ -45,3 +45,11 @@ img{
     display: block;
     max-width: 100%;
 }
+
+button, input{
+    font: inherit;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
