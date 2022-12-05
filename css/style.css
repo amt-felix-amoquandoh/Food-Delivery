@@ -8,3 +8,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --bodyFonts: 'Poppins', sans-serif;
+    --bodyColor: #676767;
+    --lightColor: #fff;
+    
+}
