@@ -55,6 +55,20 @@ button, input{
 }
 
 /* header section styles */
+#header{
+    padding-top: 4rem;
+}
+.container{
+    margin: 0 auto;
+    padding: 0 1.2rem;
+}
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-block: 0.8rem;
+}
 .brandArea{
     display: flex;
     flex-direction: row;
@@ -72,6 +86,7 @@ button, input{
 .brandLogoImg{
     height: 6rem;
     width: auto;
+    margin-right: 10rem;
 }
 .svg-icon {
     width: 3.3rem;
