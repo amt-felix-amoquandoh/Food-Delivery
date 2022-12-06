@@ -60,6 +60,14 @@ button, input{
     flex-direction: row;
     align-items: center;
 }
+.brandArea .brandText{
+  color: #f44336;
+  background-image: -webkit-linear-gradient(0deg, #f44336 30%, #1e6fe8 39%, #c43333 91%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+}
 .brandLogoImg{
     height: 6rem;
     width: auto;
