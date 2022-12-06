@@ -55,6 +55,11 @@ button, input{
 }
 
 /* header section styles */
+.brandArea{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 .brandLogoImg{
     height: 6rem;
     width: auto;
