@@ -55,6 +55,21 @@ button, input{
 }
 
 /* header section styles */
+.svg-icon {
+    width: 3em;
+    height: 2.5em;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #0c0c0c;
+  }
+  
+  .svg-icon circle {
+    stroke: #0e0f0f;
+    stroke-width: 20;
+  }
 
 /* menu section styles */
 
