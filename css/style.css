@@ -65,8 +65,9 @@ button, input{
   background-image: -webkit-linear-gradient(0deg, #f44336 30%, #1e6fe8 39%, #c43333 91%);
   background-clip: text;
   -webkit-background-clip: text;
-  text-fill-color: transparent;
   -webkit-text-fill-color: transparent;
+  text-decoration: ivory;
+  text-shadow: 2px 4px 5px rgb(184, 133, 133);
 }
 .brandLogoImg{
     height: 6rem;
