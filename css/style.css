@@ -143,4 +143,23 @@ input {
   opacity: 0;
   transition-delay: none;
 }
+.menuCollapse {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* max-height: 0;
+    overflow: hidden; */
+  transition: max-height 0.35s;
+}
+.menuList {
+  display: flex;
+  flex-direction: column;
+}
+.menuCollapse .listItem {
+  text-align: center;
+  margin: 1.2rem 1.6rem;
+}
+
 /* menu section styles */
