@@ -129,5 +129,11 @@ input {
   display: flex;
   align-items: center;
 }
+.closeMenu {
+  opacity: 0;
+}
+.openMenu {
+  transition-delay: 0.25s;
+}
 
 /* menu section styles */
