@@ -15,6 +15,7 @@
   --lightColor: #fff;
   --darkColor: #2e2e2e;
   --lightDrak: #F555556;
+  --colorAccent: #eda600;
   --sectionBackground: #fef5f5;
 }
 
@@ -167,5 +168,19 @@ input {
   line-height: 1.6rem;
   padding: 0.8rem 0;
   color: var(--lightDrak);
+  transition: color 0.25s;
+}
+.listItemLink:hover,
+.listItemLink:focus {
+  color: var(--colorAccent);
+}
+.currentLink {
+  color: var(--colorAccent);
+}
+.searchArea {
+  margin-top: 0.8rem;
+}
+.searchForm {
+  position: relative;
 }
 /* menu section styles */
