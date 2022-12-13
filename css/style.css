@@ -73,6 +73,7 @@ input {
 .navBar .brandArea .brandLogo {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 .brandArea .brandText {
   font-size: 3rem;
@@ -92,8 +93,6 @@ input {
 .brandLogoImg {
   height: 6rem;
   width: auto;
-  /* margin-right: 10rem; */
-  border: 1px solid green;
 }
 .svg-icon {
   width: 3.3rem;
