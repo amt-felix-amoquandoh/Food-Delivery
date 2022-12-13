@@ -189,4 +189,15 @@ input {
   transform: translateY(-50%);
   line-height: 0;
 }
+.searchIcon {
+  left: 2rem;
+}
+.searchInput {
+  width: 28.8rem;
+  height: 4.8rem;
+  padding: 1.2rem 6rem 1.2rem 4.4rem;
+  background-color: var(--lightColor);
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.04);
+  border-radius: 0.8rem;
+}
 /* menu section styles */
