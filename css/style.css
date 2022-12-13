@@ -15,7 +15,7 @@
   --lightColor: #fff;
   --darkColor: #2e2e2e;
   --lightDrak: #F555556;
-  --colorAccent: #eda600;
+  --colorAccent: #ff1f0f;
   --sectionBackground: #fef5f5;
 }
 
@@ -164,7 +164,8 @@ input {
 }
 .listItemLink {
   display: inline-block;
-  font-weight: 500;
+
+  font-weight: 700;
   line-height: 1.6rem;
   padding: 0.8rem 0;
   color: var(--lightDrak);
@@ -190,7 +191,7 @@ input {
   line-height: 0;
 }
 .searchIcon {
-  left: 2rem;
+  left: 0.8rem;
 }
 .searchInput {
   width: 28.8rem;
@@ -199,5 +200,14 @@ input {
   background-color: var(--lightColor);
   box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.04);
   border-radius: 0.8rem;
+}
+.searchInput::placeholder {
+  font-weight: 500;
+  line-height: 1.4;
+  color: var(--darkColor);
+  transition: all 0.2s ease-in-out;
+}
+.searchInput:focus::placeholder {
+  opacity: 0;
 }
 /* menu section styles */
