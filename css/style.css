@@ -162,5 +162,10 @@ input {
   margin: 1.2rem 1.6rem;
 }
 .listItemLink {
+  display: inline-block;
+  font-weight: 500;
+  line-height: 1.6rem;
+  padding: 0.8rem 0;
+  color: var();
 }
 /* menu section styles */
