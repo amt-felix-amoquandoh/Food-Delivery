@@ -135,5 +135,12 @@ input {
 .openMenu {
   transition-delay: 0.25s;
 }
-
+.showMenu .closeMenu {
+  opacity: 1;
+  transition-delay: 0.25s;
+}
+.showMenu .openMenu {
+  opacity: 0;
+  transition-delay: none;
+}
 /* menu section styles */
