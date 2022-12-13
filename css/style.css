@@ -183,4 +183,10 @@ input {
 .searchForm {
   position: relative;
 }
+.formIcon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  line-height: 0;
+}
 /* menu section styles */
