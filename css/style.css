@@ -210,4 +210,19 @@ input {
 .searchInput:focus::placeholder {
   opacity: 0;
 }
+.cartIcon {
+  right: 2rem;
+}
+.cartIcon .path {
+  transition: all 0.25s;
+}
+.carticon:hover .path,
+.cartIcon:focus .path {
+  fill: var(--colorAccent);
+}
+.carticon:hover .path.no-fill,
+.cartIcon:focus .path.no-fill {
+  fill: none;
+  stroke: var(--colorAccent);
+}
 /* menu section styles */
