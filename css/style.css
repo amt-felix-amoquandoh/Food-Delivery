@@ -77,19 +77,19 @@ input {
   align-items: center;
 }
 .brandArea .brandText {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: #f44336;
   background-image: -webkit-linear-gradient(
     0deg,
-    #f44336 30%,
-    #1e6fe8 39%,
-    #c43333 91%
+    #f44336 10%,
+    #1e6fe8 29%,
+    #c43333 81%
   );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-decoration: ivory;
-  text-shadow: 2px 4px 5px rgb(184, 133, 133);
+  text-shadow: 2px 4px 5px rgb(224, 88, 88);
 }
 .brandLogoImg {
   height: 6rem;
@@ -150,8 +150,8 @@ input {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* max-height: 0;
-    overflow: hidden; */
+  max-height: 0;
+  overflow: hidden;
   transition: max-height 0.35s;
 }
 .menuList {
@@ -224,5 +224,30 @@ input {
 .cartIcon:focus .path.no-fill {
   fill: none;
   stroke: var(--colorAccent);
+}
+.cartIcon::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: -1.6rem;
+  width: 2px;
+  height: 2.7rem;
+  background-color: #f2f2f2;
+}
+.cartIcon::after {
+  content: "2";
+  position: absolute;
+  top: -2.6rem;
+  right: -2.4rem;
+  width: 2.8rem;
+  height: 2.8rem;
+  background-color: var(--colorAccent);
+  border-radius: 50%;
+  box-shadow: -0.6rem 0.9rem 2.4rem -0.6rem rgba(238, 67, 67, 0.68);
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--lightColor);
 }
 /* menu section styles */
