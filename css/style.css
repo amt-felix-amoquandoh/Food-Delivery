@@ -111,7 +111,8 @@ input {
 }
 
 .menuToggle ion-icon {
-  font-size: 28px;
+  font-size: 2.6rem;
+  color: inherit;
 }
 .menuToggle {
   width: 5.6rem;
