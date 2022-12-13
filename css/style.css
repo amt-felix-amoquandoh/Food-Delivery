@@ -70,10 +70,10 @@ input {
   flex-wrap: wrap;
   padding-block: 0.8rem;
 }
-.brandArea {
+.navBar .brandArea .brandLogo {
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column-reverse;
+
   border: 1px solid green;
 }
 .brandArea .brandText {
