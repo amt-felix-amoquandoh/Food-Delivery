@@ -75,6 +75,7 @@ input {
   flex-direction: row;
 }
 .brandArea .brandText {
+  font-size: 3rem;
   color: #f44336;
   background-image: -webkit-linear-gradient(
     0deg,
@@ -91,7 +92,7 @@ input {
 .brandLogoImg {
   height: 6rem;
   width: auto;
-  margin-right: 10rem;
+  /* margin-right: 10rem; */
   border: 1px solid green;
 }
 .svg-icon {
