@@ -250,3 +250,9 @@ input {
   color: var(--lightColor);
 }
 /* menu section styles */
+.menu {
+  padding: 6rem 0 5rem;
+}
+.textArea {
+  text-align: center;
+}
