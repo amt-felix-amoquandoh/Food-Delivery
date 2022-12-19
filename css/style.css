@@ -275,3 +275,16 @@ input {
   height: 2.4rem;
   margin: 0;
 }
+.title {
+  color: var(--darkColor);
+  font-weight: 700;
+}
+.mainTitle {
+  font-size: 3rem;
+  line-height: 5.8rem;
+  letter-spacing: -0.1em;
+}
+.textSpan {
+  color: var(--colorAccent);
+  letter-spacing: -;
+}
