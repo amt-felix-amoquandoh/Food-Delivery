@@ -299,6 +299,7 @@ input {
   display: flex;
   align-items: center;
   justify-content: center;
+  column-gap: 2.4rem;
 }
 .button {
   display: inline-block;
@@ -309,4 +310,7 @@ input {
   border: 1px solid transparent;
   border-radius: 0.8rem;
   transition: background-color 0.25s;
+}
+.menu .button {
+  font-size: 1.2rem;
 }
