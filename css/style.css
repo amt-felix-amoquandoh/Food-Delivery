@@ -334,3 +334,10 @@ input {
   margin-right: 1.2rem;
   box-shadow: 20px 20px 60px #6b6767, -20px -20px 60px #7a7777;
 }
+.transparentButton img {
+  transition: transform 0.25s ease-in-out;
+}
+.transparentButton:hover img,
+.transparentButton:focus img {
+  transform: scale(1.4);
+}
