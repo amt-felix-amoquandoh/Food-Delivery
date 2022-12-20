@@ -314,3 +314,8 @@ input {
 .menu .button {
   font-size: 1.2rem;
 }
+.button:not(.transparentButton):hover .button:not(.transparentButton):focus {
+  background-color: var(--lightColor);
+  color: var(--colorAccent);
+  border-color: var(--colorAccent);
+}
