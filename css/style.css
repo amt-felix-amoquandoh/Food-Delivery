@@ -441,3 +441,9 @@ section:not(.ourMenu) .button:hover{
 .ourAppDownload{
   padding: 5rem 0;
 }
+.ourAppDownloadContainer .servicesImgArea img{
+  margin: 0 auto;
+}
+.ourAppDownload .buttons{
+  margin: 0;
+}
