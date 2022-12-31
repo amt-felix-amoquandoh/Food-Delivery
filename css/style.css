@@ -82,8 +82,8 @@ input {
   background-image: -webkit-linear-gradient(
     0deg,
     #dd2727 20%,
-    #4edbee 49%,
-    #008d8dda 41%
+    #02424b 49%,
+    #04d6d6da 41%
   );
   background-clip: text;
   -webkit-background-clip: text;
@@ -212,7 +212,10 @@ input {
 .cartIcon {
   right: 2rem;
 }
-
+.cartIcon > img{
+  height:40px;
+   width:auto;
+}
 .cartIcon::before {
   content: "";
   position: absolute;
