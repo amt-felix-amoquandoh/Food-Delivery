@@ -340,7 +340,7 @@ input {
   padding: 10rem 0;
   background-color: var(--sectionBackground);
 }
-.ourMenuInfo, .cardBody{
+.ourMenuInfo{
   text-align: center;
 }
 .ourMenuTagline{
@@ -369,6 +369,19 @@ input {
 }
 .cardHeader img{
   height: 15rem;
-  margin: 0 auto;
+  margin: -2.5rem auto;
+}
+.cardBody{
+  text-align: center;
+  margin: 6rem 0 2rem;
+}
+.titleOfCard{
+  font-size: 1.8rem;
+  line-height: 3.3rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+.cardBody p{
+  line-height: 2.5rem;
 }
 
