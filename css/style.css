@@ -497,3 +497,101 @@ section:not(.ourMenu) .button:hover{
 .footerMid{
   margin: 3rem 0 1rem;
 }
+.footerMid .listItem{
+  margin: inherit;
+}
+.footerMid .listItemLink{
+  line-height: 4rem;
+}
+.horizontalLine{
+  margin-block: 3rem;
+  background-color: #0c0c0c;
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+.copyrightInfo{
+  line-height: 2.4rem;
+}
+.legalInfo a{
+  font-weight: 500;
+  margin: 0 1.2rem;
+  transition: color 0.5s;
+}
+.legalInfo a:hover,
+.legalInfo a:focus{
+  color: var(--colorAccent);
+}
+/* media queries */
+@media screen and (min-width: 768px) {
+  body{
+    font-size: 1.6rem;
+  }  
+  
+  .ourMenu{
+    padding: 8rem 0 12rem;
+  }
+
+  .container{
+    max-width: 72rem;
+  }
+
+  .tagLine{
+    font-size: 1.6rem;
+  }
+
+  .mainTitle{
+    font-size: 3.8rem;
+  }
+
+  .buttons{
+    justify-content: flex-start;
+  }
+
+  .button{
+    width: 18rem;
+    padding: 1.8rem 2rem;
+  }
+
+  .ourMenu .button{
+    font-size: inherit;
+  }
+
+  .ourMenu .transparentButton{
+    width: 7rem;
+  }
+
+  .servicesTextArea, .ourMenuInfo{
+    text-align: left;
+  } 
+  
+  .services .ourMenuInfo{
+    text-align: center;
+  }
+
+  .ourMenuTitle{
+    font-size: 3.2rem;
+  }
+
+  .cardArea{
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2.4rem;
+  }
+
+  section:not(.ourMenu) .servicesTextArea{
+    margin: 10rem 0 2rem;
+  }
+
+  .ourAppDownload .servicesTextArea{
+    margin-top: 8rem !important;
+  }
+
+  .footerBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.4rem;
+  }
+
+
+
+}
