@@ -81,15 +81,15 @@ input {
   color: #f44336;
   background-image: -webkit-linear-gradient(
     0deg,
-    #f44336 10%,
-    #1e6fe8 29%,
-    #c43333 81%
+    #dd2727 20%,
+    #4edbee 49%,
+    #008d8dda 41%
   );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-decoration: ivory;
-  text-shadow: 2px 4px 5px rgb(224, 88, 88);
+  text-shadow: 2px 4px 5px rgb(255, 175, 175);
 }
 .brandLogoImg {
   height: 6rem;
@@ -257,7 +257,7 @@ input {
   text-align: center;
 }
 .tagArea {
-  background-color: #fdecec;
+  background-color: #fdececce;
   border-radius: 2.3rem;
   display: inline-flex;
   align-items: center;
