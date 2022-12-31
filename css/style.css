@@ -468,6 +468,7 @@ section:not(.ourMenu) .button:hover{
 }
 .companyDescription{
   margin: 2.5rem 0 1rem;
+  line-height: 3rem;
 }
 #footer .brandLogo{
   display: flex;
@@ -490,4 +491,9 @@ section:not(.ourMenu) .button:hover{
   text-decoration: ivory;
   text-shadow: 2px 4px 5px rgba(155, 153, 153, 0.603);
 }
-
+.footerTitle{
+  line-height: 2rem;
+}
+.footerMid{
+  margin: 3rem 0 1rem;
+}
