@@ -592,6 +592,41 @@ section:not(.ourMenu) .button:hover{
     font-size: 1.4rem;
   }
 
+}
 
 
+@media screen and (min-width: 992px) {
+  .container{
+    max-width: 96rem;
+  }
+
+  .navBar{
+    flex-wrap: nowrap;
+  }
+
+  .menuToggle{
+    display: none;
+  }
+
+  .menuCollapse{
+    flex-direction: row;
+    max-height: initial !important;
+    overflow: visible !important;
+    transition: none;
+  }
+
+  .menuCollapse > .menuList{
+    flex-direction: row;
+    margin: 0 auto;
+  }
+
+  .menuCollapse .listItem{
+    margin: 0 1.6rem;
+  }
+
+  .searchArea{
+    margin-top: 0;
+  }
+
+  
 }
