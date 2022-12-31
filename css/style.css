@@ -447,3 +447,14 @@ section:not(.ourMenu) .button:hover{
 .ourAppDownload .buttons{
   margin: 0;
 }
+.ourAppDownload .button{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  column-gap: 1rem;
+  padding-block: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.ourAppDownload .button img{
+  margin: -2.5rem 0;
+}
