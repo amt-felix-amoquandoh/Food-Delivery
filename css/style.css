@@ -490,7 +490,4 @@ section:not(.ourMenu) .button:hover{
   text-decoration: ivory;
   text-shadow: 2px 4px 5px rgba(155, 153, 153, 0.603);
 }
-.footer .brandLogoImg {
-  height: 6rem;
-  width: auto;
-}
+
