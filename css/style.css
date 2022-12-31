@@ -438,3 +438,6 @@ section:not(.ourMenu) .button:hover{
 .ourAppDownload .ourMenuTagline{
   color: rgb(3, 3, 185);
 }
+.ourAppDownload{
+  padding: 5rem 0;
+}
