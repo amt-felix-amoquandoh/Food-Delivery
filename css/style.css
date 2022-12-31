@@ -385,3 +385,14 @@ input {
   line-height: 2.5rem;
 }
 
+/* services */
+.services{
+  padding: 5rem 0;
+}
+section:not(.ourMenu) .servicesTextArea{
+  margin: 8rem 0 2rem;
+}
+.services .ourMenuTagline{
+  color: #03a66b;
+}
+
