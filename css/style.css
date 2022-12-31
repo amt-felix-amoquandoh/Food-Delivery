@@ -240,6 +240,7 @@ input {
   align-items: center;
   justify-content: center;
   color: var(--lightColor);
+  margin: 0.8rem;
 }
 /* menu section styles */
 .menu {
