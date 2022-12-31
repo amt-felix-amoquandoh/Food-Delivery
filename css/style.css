@@ -250,7 +250,7 @@ input {
   text-align: center;
 }
 .tagArea {
-  background-color: #000000ee;
+  background-color: #ff5c5c;
   border-radius: 2.3rem;
   display: inline-flex;
   align-items: center;
@@ -389,7 +389,7 @@ input {
 .services{
   padding: 5rem 0;
 }
-section:not(.ourMenu) .servicesTextArea{
+section:not(.ourMenu) .servicesTextArea, .farmServicesTextArea{
   margin: 8rem 0 2rem;
 }
 .services .ourMenuTagline{
@@ -401,4 +401,35 @@ section:not(.ourMenu) .button{
 section:not(.ourMenu) .button:hover{
   color: white;
   background-color: rgba(255, 166, 0, 0.644);
+}
+
+/* farm services styling */
+.farmServices{
+  padding: 0 0 10rem;
+}
+.farmServices .ourMenuTagline{
+  color: #f9ba45;
+}
+.farmServices .button{
+  background-color: #f9ba45;
+  color: white;
+}
+.farmServices .button:hover{
+  background-color: white;
+  color: #f9ba45;
+}
+/* food services styling */
+.foodServices{
+  padding: 0 0 10rem;
+}
+.foodServices .ourMenuTagline{
+  color: #f94545;
+}
+.foodServices .button{
+  background-color: #f94545;
+  color: white;
+}
+.foodServices .button:hover{
+  background-color: white;
+  color: #f94545;
 }
