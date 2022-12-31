@@ -433,3 +433,8 @@ section:not(.ourMenu) .button:hover{
   background-color: white;
   color: #f94545;
 }
+
+/* App download styling */
+.ourAppDownload .ourMenuTagline{
+  color: rgb(3, 3, 185);
+}
