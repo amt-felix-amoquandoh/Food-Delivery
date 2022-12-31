@@ -81,15 +81,15 @@ input {
   color: #f44336;
   background-image: -webkit-linear-gradient(
     0deg,
-    #dd2727 20%,
-    #02424b 49%,
-    #04d6d6da 41%
+    #dd2727 10%,
+    #002125b4 69%,
+    #008d8dda 21%
   );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-decoration: ivory;
-  text-shadow: 2px 4px 5px rgb(255, 175, 175);
+  text-shadow: 2px 4px 5px rgba(155, 153, 153, 0.603);
 }
 .brandLogoImg {
   height: 6rem;
@@ -249,7 +249,7 @@ input {
   text-align: center;
 }
 .tagArea {
-  background-color: #fdececce;
+  background-color: #000000ee;
   border-radius: 2.3rem;
   display: inline-flex;
   align-items: center;
