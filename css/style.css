@@ -458,3 +458,8 @@ section:not(.ourMenu) .button:hover{
 .ourAppDownload .button img{
   margin: -2.5rem 0;
 }
+/* footer styles */
+#footer .brandLogo{
+  display: flex;
+  flex-direction: column;
+}
