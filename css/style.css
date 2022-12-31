@@ -628,5 +628,19 @@ section:not(.ourMenu) .button:hover{
     margin-top: 0;
   }
 
-  
+  .menuContainer, .ourMenu, .ourAppDownload{
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2.4rem;
+  }
+
+  .card{
+    padding: 4rem 2.6rem;
+    margin: 1rem;
+  }
+
+  .ourMenuContainer{
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 2.4rem;
+  }
+
 }
