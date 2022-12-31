@@ -461,5 +461,25 @@ section:not(.ourMenu) .button:hover{
 /* footer styles */
 #footer .brandLogo{
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer .brandArea .brandText {
+  font-size: 2.5rem;
+  color: #f44336;
+  background-image: -webkit-linear-gradient(
+    0deg,
+    #dd2727 10%,
+    #002125b4 69%,
+    #008d8dda 21%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: ivory;
+  text-shadow: 2px 4px 5px rgba(155, 153, 153, 0.603);
+}
+.footer .brandLogoImg {
+  height: 6rem;
+  width: auto;
 }
