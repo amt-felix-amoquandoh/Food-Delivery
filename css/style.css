@@ -336,3 +336,39 @@ input {
 }
 
 /* about us styling below */
+.ourMenu{
+  padding: 10rem 0;
+  background-color: var(--sectionBackground);
+}
+.ourMenuInfo, .cardBody{
+  text-align: center;
+}
+.ourMenuTagline{
+  display: inline-block;
+  font-weight: 500;
+  color: var(--colorAccent);
+  line-height: 2.4rem;
+  margin-bottom: 0.8rem;
+}
+.ourMenuTitle{
+  font-size: 2.4rem;
+  line-height: 4.4rem;
+  margin-bottom: 2.2rem;
+}
+.cardArea{
+  margin: 7rem 0 2rem;
+  gap: 2rem;
+}
+.card{
+  padding: 3rem 2.2rem;
+  background-color: var(--lightColor);
+  border-radius: 1.2rem;
+}
+.cardHeader{
+  display: flex;
+}
+.cardHeader img{
+  height: 15rem;
+  margin: 0 auto;
+}
+
