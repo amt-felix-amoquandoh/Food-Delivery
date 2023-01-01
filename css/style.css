@@ -564,9 +564,9 @@ section:not(.ourMenu) .button:hover{
     text-align: left;
   } 
   
-  .services .ourMenuInfo{
+  /* .services .ourMenuInfo{
     text-align: center;
-  }
+  } */
 
   .ourMenuTitle{
     font-size: 3.2rem;
@@ -638,9 +638,94 @@ section:not(.ourMenu) .button:hover{
     margin: 1rem;
   }
 
-  .ourMenuContainer{
+  .servicesContainer{
     grid-template-columns: repeat(12, 1fr);
     column-gap: 2.4rem;
   }
+  
+  .services .servicesImgArea{
+    grid-column: span 7;
+  } 
 
+  .services .servicesTextArea{
+    grid-column: span 5;
+  }
+
+  .farmServices .farmServicesImgArea{
+    order: 1;
+  }
+
+  .ourAppDownload{
+    padding: 10rem 0;
+  }
+
+  #footer{
+    text-align: left;
+    font-size: 1.4rem;
+  }
+
+  .footerTopInfo{
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 2.4rem;
+  }
+
+  .companyInfo{
+    grid-column: span 2;
+  }
+
+  .legalInfo{
+    margin-left: auto;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+  .container{
+    max-width: 114rem;
+  }  
+
+  .mainTitle{
+    font-size: 4.8rem;
+    line-height: 8.8rem;
+  }
+
+  section:not(.ourMenu) .ourMenuTitle{
+    max-width: 90%;
+  }
+
+  .cardArea{
+    max-width: 95rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card{
+    position: relative;
+    z-index: 1;
+  }
+
+  .card::before, .card::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: inherit;
+  }
+
+  .card::before{
+    width: calc(100% + 1.5rem);
+    height: calc(100% + 1.5rem);
+    background-color: var(--colorAccent);
+    transform-origin: top left;
+    transition: transform 0.25s, opacity 0.25s;
+    z-index: -2;
+    opacity: 0;
+  }
+
+  .card::after{
+    width: inherit;
+    height: inherit;
+    background-color: inherit;
+    z-index: -1;
+  }
 }
