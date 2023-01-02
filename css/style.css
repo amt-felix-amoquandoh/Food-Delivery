@@ -847,4 +847,10 @@ section:not(.ourMenu) .button:hover{
     margin: 2rem;
   }
 
+  .ourAppDownload{
+    padding-block: 1.8rem;
+    margin-right: 1.4rem;
+    font-weight: 400;
+  }
+
 }
