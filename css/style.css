@@ -632,7 +632,11 @@ section:not(.ourMenu) .button:hover{
     margin-top: 0;
   }
 
-  .ourMenuContainer, .ourMenu, .ourAppDownload
+  .menu {
+    padding: 8rem 0 6rem;
+  }
+
+  .menuContainer, .ourMenuContainer, .ourAppDownloadContainer
   , .farmServicesContainer, .foodServicesContainer{
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2.4rem;
