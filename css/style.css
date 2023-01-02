@@ -657,6 +657,7 @@ section:not(.ourMenu) .button:hover{
   .menuToggle{
     display: none;
   }
+  
 
   .menuCollapse{
     flex-direction: row;
