@@ -250,8 +250,8 @@ input {
 .menuContainer::before{
   background-image: linear-gradient(
     98deg,
-    rgba(236, 223, 209, 0.842),
-    rgba(178, 235, 245, 0.418)
+    rgba(243, 181, 181, 0.692),
+    rgba(178, 235, 245, 0.534)
   ), url('../media/images/foodback.jpg');
     content: '';
     position: fixed;
