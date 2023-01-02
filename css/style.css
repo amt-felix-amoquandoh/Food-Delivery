@@ -314,6 +314,8 @@ input {
   line-height: 3rem;
   letter-spacing: 0.005em;
   margin-block: 2.2rem;
+  color: rgb(107, 0, 0);
+  font-weight: bold;
 }
 .buttons {
   margin: 5rem 0 1rem;
