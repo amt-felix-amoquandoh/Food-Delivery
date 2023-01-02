@@ -628,7 +628,7 @@ section:not(.ourMenu) .button:hover{
     margin-top: 0;
   }
 
-  .menuContainer, .ourMenu, .ourAppDownload{
+  .ourMenuContainer, .ourMenu, .ourAppDownload{
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2.4rem;
   }
