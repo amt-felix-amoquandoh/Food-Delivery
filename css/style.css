@@ -823,4 +823,28 @@ section:not(.ourMenu) .button:hover{
   section:not(.menu) .textArea{
     margin: 20rem 0 2rem;
   }
+
+  .ourMenuTagline{
+    font-size: 1.8rem;
+  }
+
+  .ourMenuTitle{
+    font-size: 4rem;
+  }
+
+  .ourMenu .ourMenuTitle{
+    max-width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .cardArea{
+    max-width: 110rem;
+  }
+
+  .card{
+    padding: 5rem 2.8rem;
+    margin: 2rem;
+  }
+
 }
