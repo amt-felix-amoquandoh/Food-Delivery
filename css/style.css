@@ -314,7 +314,7 @@ input {
   line-height: 3rem;
   letter-spacing: 0.005em;
   margin-block: 2.2rem;
-  color: rgb(107, 0, 0);
+  color: rgba(107, 0, 0, 0.911);
   font-weight: bold;
 }
 .buttons {
