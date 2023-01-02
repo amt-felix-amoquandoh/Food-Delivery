@@ -788,4 +788,15 @@ section:not(.ourMenu) .button:hover{
     opacity: 1;
   }
 
+  .companyInfo{
+    max-width: 75%;
+  }
+
+  #footer .brandLogo{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 0 auto;
+  }
+
 }
