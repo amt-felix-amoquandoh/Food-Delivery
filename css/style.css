@@ -810,6 +810,16 @@ section:not(.ourMenu) .button:hover{
 
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
+  .container{
+    max-width: 132rem;
+  }
 
+  .mainTitle{
+    font-size: 7.4rem;
+  }
+
+  section:not(.menu) .textArea{
+    margin: 20rem 0 2rem;
+  }
 }
