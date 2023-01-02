@@ -247,9 +247,33 @@ input {
   margin: 0.8rem;
 }
 /* menu section styles */
+.menuContainer::before{
+  background-image: linear-gradient(
+    98deg,
+    rgba(236, 223, 209, 0.842),
+    rgba(178, 235, 245, 0.418)
+  ), url('../media/images/foodback.jpg');
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .menu {
   padding: 2rem 0 3rem;
+  opacity: none;
 }
+
+.imageContent > img{
+  border-radius: 19% 81% 64% 36% / 0% 42% 58% 100%  ;
+  
+}
+
 .textArea {
   text-align: center;
 }
@@ -347,12 +371,13 @@ input {
 .ourMenuInfo{
   text-align: center;
 }
-.ourMenuTagline{
+.ourMenuTagline {
   display: inline-block;
-  font-weight: 500;
+  font-weight: bold;
   color: var(--colorAccent);
   line-height: 2.4rem;
   margin-bottom: 0.8rem;
+  font-size: x-large;
 }
 .ourMenuTitle{
   font-size: 2.4rem;
@@ -392,13 +417,20 @@ input {
 /* services */
 .services{
   padding: 5rem 0;
+  background-color: var(--lightColor);
 }
-section:not(.ourMenu) .servicesTextArea, .farmServicesTextArea{
+section:not(.ourMenu) .servicesTextArea, .farmServicesTextArea, .foodServicesTextArea{
   margin: 8rem 0 2rem;
 }
 .services .ourMenuTagline{
   color: #03a66b;
 }
+
+.servicesImgArea > img{
+  border-radius: 29% 71% 100% 0% / 59% 100% 0% 41% ;
+  margin-left: 90px;
+}
+
 section:not(.ourMenu) .button{
   margin: 5rem 0 2rem;
 }
@@ -410,6 +442,7 @@ section:not(.ourMenu) .button:hover{
 /* farm services styling */
 .farmServices{
   padding: 0 0 10rem;
+  background-color: var(--lightColor);
 }
 .farmServices .ourMenuTagline{
   color: #f9ba45;
@@ -422,9 +455,11 @@ section:not(.ourMenu) .button:hover{
   background-color: white;
   color: #f9ba45;
 }
+
 /* food services styling */
 .foodServices{
   padding: 0 0 10rem;
+  background-color: var(--lightColor);
 }
 .foodServices .ourMenuTagline{
   color: #f94545;
@@ -438,12 +473,17 @@ section:not(.ourMenu) .button:hover{
   color: #f94545;
 }
 
+.foodServicesImgArea > img{
+  border-radius: 48% 52% 53% 47% / 46% 49% 51% 54% ;
+}
+
 /* App download styling */
 .ourAppDownload .ourMenuTagline{
   color: rgb(3, 3, 185);
 }
 .ourAppDownload{
   padding: 5rem 0;
+  background-color: rgb(228, 239, 240);
 }
 .ourAppDownloadContainer .servicesImgArea img{
   margin: 0 auto;
@@ -466,6 +506,7 @@ section:not(.ourMenu) .button:hover{
 #footer{
   text-align: center;
   padding: 5rem 0 3rem;
+  background-color: var(--sectionBackground);
 }
 .companyInfo{
   margin-block: 2rem;
@@ -698,8 +739,8 @@ section:not(.ourMenu) .button:hover{
     line-height: 8.8rem;
   }
 
-  section:not(.ourMenu) .ourMenuTitle{
-    max-width: 90%;
+  .ourMenuInfo{
+    text-align: center;
   }
 
   .cardArea{
@@ -719,6 +760,10 @@ section:not(.ourMenu) .button:hover{
     top: 0;
     left: 0;
     border-radius: inherit;
+  }
+
+  .servicesImgArea > img, .farmServicesImgArea > img{
+    margin-top: 80px;
   }
 
   .card::before{
