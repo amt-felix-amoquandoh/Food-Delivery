@@ -428,7 +428,6 @@ section:not(.ourMenu) .servicesTextArea, .farmServicesTextArea, .foodServicesTex
 
 .servicesImgArea > img{
   border-radius: 29% 71% 100% 0% / 59% 100% 0% 41% ;
-  margin-left: 90px;
 }
 
 section:not(.ourMenu) .button{
@@ -696,6 +695,10 @@ section:not(.ourMenu) .button:hover{
   .services .servicesImgArea{
     grid-column: span 7;
   } 
+
+  .servicesImgArea > img{
+    margin-left: 90px;
+  }
 
   .services .servicesTextArea{
     grid-column: span 5;
