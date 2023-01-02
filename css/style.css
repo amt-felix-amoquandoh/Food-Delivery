@@ -31,6 +31,10 @@ body {
   line-height: 1.5;
 }
 
+.d-grid{
+  display: grid;
+}
+
 ul {
   list-style: none;
 }
@@ -628,7 +632,8 @@ section:not(.ourMenu) .button:hover{
     margin-top: 0;
   }
 
-  .ourMenuContainer, .ourMenu, .ourAppDownload{
+  .ourMenuContainer, .ourMenu, .ourAppDownload
+  , .farmServicesContainer, .foodServicesContainer{
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2.4rem;
   }
