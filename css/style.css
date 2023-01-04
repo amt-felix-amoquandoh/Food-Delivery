@@ -63,6 +63,7 @@ input {
 /* header section styles */
 #header {
   padding-top: 2rem;
+  background-color: var(--sectionBackground);
 }
 .container {
   margin: 0 auto;
